@@ -665,6 +665,7 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  min-height: 200px;
 }
 
 .no-gutters {
@@ -10014,4 +10015,27 @@ h6,
 
 .justify-content-center{
   display: none;
+}
+
+#bienvenida{
+  background-color: var(--primary);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mfwsite{
+  color: #fff;
+}
+
+.btnp{
+  margin-top: 20px;
+  background-color: #fff;
+  color: var(--info);
+  border-radius: 0.4em;
+  border: none;
+  padding: 0.8em;
+}
+
+.portfolio-container{
+  position: relative;
+  height: 200px;
 }
