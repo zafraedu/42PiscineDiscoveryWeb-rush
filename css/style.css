@@ -7737,11 +7737,6 @@ button.bg-dark:focus {
   margin-top: 3rem !important;
 }
 
-.mr-5,
-.mx-5 {
-  margin-right: 3rem !important;
-}
-
 .mb-5,
 .my-5 {
   margin-bottom: 3rem !important;
@@ -10016,10 +10011,14 @@ h6,
 .justify-content-center{
   display: none;
 }
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+#portfolio, #portfolio2{
+  margin-bottom: 3em;
+}
 
 #bienvenida{
   background-color: var(--primary);
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Arial', sans-serif;
 }
 
 .mfwsite{
@@ -10027,15 +10026,24 @@ h6,
 }
 
 .btnp{
+  padding: 10px 20px;
   margin-top: 20px;
+  margin: 10px;
   background-color: #fff;
-  color: var(--info);
-  border-radius: 0.4em;
+  color: var(--dark);
+  border-radius: 5px;
   border: none;
-  padding: 0.8em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btnp:hover {
+  background-color: #117a8b;
+  color: #fff;
 }
 
-.portfolio-container{
-  position: relative;
-  height: 200px;
+/* Estilos para hacer los botones responsivos */
+@media (max-width: 768px) {
+  .btnp {
+      width: 100%;
+  }
 }
