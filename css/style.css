@@ -10019,26 +10019,27 @@ h6,
 #bienvenida{
   background-color: var(--primary);
   font-family: 'Arial', sans-serif;
+  gap: 1em;
 }
 
 .mfwsite{
-  color: #fff;
+  color: var(--light);
 }
 
 .btnp{
   padding: 10px 20px;
   margin-top: 20px;
   margin: 10px;
-  background-color: #fff;
-  color: var(--dark);
-  border-radius: 5px;
-  border: none;
+  background-color: var(--primary);
+  color: var(--light);
+  border-radius: 2em;
+  border: 1px solid var(--light);
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 .btnp:hover {
-  background-color: #117a8b;
-  color: #fff;
+  background-color: var(--light);
+  color: var(--dark);
 }
 
 /* Estilos para hacer los botones responsivos */
